@@ -6,26 +6,22 @@
     padding: 0;
  }
 
-  body {
-     display: flex;
-     justify-content: space-evenly;
-     align-items: center;
-      background-image: radial-gradient(circle,#00bcd4 50%, #006064 100%);
-      font-family: Arial, Helvetica, sans-serif
-      
+body {
+    display: flex;
+    background-image: radial-gradient(circle,#00bcd4 50%, #006064 100%); 
 }
 
-.container {
-    gap: 200px; /*espaco entre as caixas */
-    display: flex;
-    
+div.container{
+    gap: 10vw;
+    display: inline-flex;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .Btestudante , .Btmotorista {
     display: flex;
-    position: relative; /*Os elemtos trabalham somente no espaco da div*/
-    height: 370px;
-    width: 370px;
+    height: 22vw;
+    width: 22vw;
 
     border-radius: 50%;
     box-shadow: 2px 2px 2px black;
@@ -42,47 +38,23 @@
     align-items: center;
 }
 
+
 button:hover {/*hover : ao passar em cima o cursor ja funciona*/
     transform: scale(1.1); /*Ao passar o mouse em cima aumenta o tamanho do botao*/
 }
 
 i {
-    font-size: 180px;
+    
+    font-size: 10vw;
     color: black;
-    margin-bottom: 30px;
+    margin-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.Btestudante , .Btmotorista > p {
+    font-size: 3vw;
 }
 
 a {
     text-decoration: none;
-}
-
- 
- .bodystudent {
-    flex-direction: column;
-    height: 100%; 
-}
-
-.bodydriver {
-    flex-direction: column;
-    height: 100%;
-}
-
-
-input {
-    width: 300px;
-    height: 40px;
-    padding: 10px;
-    margin-top: 100px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 10px; /*Arredonda a borda*/
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-size: 16px;
-    outline: none; /*Remove a borda padrao do navegador*/
-    transition: all 0.3s ease; /*All = Aplica a tudo (borda, box , background), 0.3 duracao da transition, ease = comeca devagar, acelera no meio, e desacelera no final*/   
-}
-
-input[type="text"]:focus {/*focus = só quando clicar nele que vai funcionar*/
-    border-color: #8a2be2;
-    background-color: #ffffff;
 }
