@@ -12,7 +12,7 @@ body {
 }
 
 div.container{
-    gap: 10vw;
+    gap: 8vw;
     display: inline-flex;
     margin: 0 auto;
     align-items: center;
@@ -20,8 +20,8 @@ div.container{
 
 .Btestudante , .Btmotorista {
     display: flex;
-    height: 22vw;
-    width: 22vw;
+    height: 20vw;
+    width: 20vw;
 
     border-radius: 50%;
     box-shadow: 2px 2px 2px black;
@@ -45,14 +45,14 @@ button:hover {/*hover : ao passar em cima o cursor ja funciona*/
 
 i {
     
-    font-size: 10vw;
+    font-size: 8vw;
     color: black;
     margin-top: 1vw;
     padding-bottom: 1vw;
 }
 
 .Btestudante , .Btmotorista > p {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 a {
